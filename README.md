@@ -57,7 +57,8 @@ VGG16 cropped feature extraction
 We extract the VGG16 features from the cropped pictures via `vgg_cropped_features.py`. The features are serialized in `features/vgg16_cropped_block5_features.csv`.
 
 
-===============================================================
+
+
 Neural networks 
 ===============================================================
 
@@ -70,7 +71,7 @@ Fit weights
 -
 The weights for a given network structure are fitted with `train_network.py`. The models for network `x_structure.json` are persisted in `x_weights.h5`.
 
-===============================================================
+
 YOLO
 ===============================================================
 
@@ -99,7 +100,7 @@ crop yolo bounding boxes
 We crop the bounding boxes from yolo using `yolo-crop.py` and save them to `data/processed/cropped_data`.
 
 
-===============================================================
+
 Test Augmentation
 ===============================================================
 
